@@ -1,0 +1,49 @@
+.header{
+    background-color:grey; 
+    color:black; 
+    border-color: #080808; 
+    min-height: 50px; 
+    border: 1px solid transparent;
+}
+.innerhedder{
+    width:80%; 
+    margin:auto;
+}
+.logo{
+    float: left; 
+    height: 50px; 
+    padding: 15px; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+.headerlink{
+    float:right; 
+    font-size:14px; 
+    height: 50px; 
+    padding: 15px 15px; 
+    font-size:16px; 
+    font-weight: bold;
+}
+
+.link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+.link1{
+    color: black;
+    font-size: 20px;
+}
+
+.headdiv{
+    text-align: center;
+    padding-left: 100px;
+}
+.divcol{
+    color: black;
+}

@@ -1,0 +1,14 @@
+.container{
+    padding-top: 60px;
+    background-color: black;
+}
+.divcol{
+    background-color: black;
+    height: 550px;
+
+}
+input[type=text],[type=number],[type=password],[type=email]{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}

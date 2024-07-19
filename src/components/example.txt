@@ -1,0 +1,29 @@
+const updateUser = (e) => {
+        e.preventDefault();
+        
+        const User = {proQty}
+
+        updateQty(id, User).then((response) => {
+            navigate('/cart')
+        }).catch(error => {
+            console.log(error)
+        })
+    }
+
+onClick = {(e) => updateUser(e)}
+
+getUserByUserName(userName).then((response) =>{
+                console.log(response.data)
+
+                if (userPass ==="sai12345"){
+                    alert("LOGIN COMPLETED")
+                    navigate(`/tech`);
+                }
+                else{
+                    alert("LOGIN FAILED=>Invalid password")
+                }
+
+        }).catch(error => {
+            console.log(error)
+            alert("LOGIN FAILED=>Invalid user id")
+        })
